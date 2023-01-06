@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 50;
+
+}
+
+/* header or navbar area */
+.header {
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+.text-color {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    margin: 50px 190px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+nav ul {
+    margin: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    margin: 20px;
+}
+
+.btn {
+    background-color: orange;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* banner or header */
+img {
+    width: 400px;
+}
+
+.banner {
+    margin: 0 200px;
+    display: flex;
+}
+
+.banner-title {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0 60px;
+}
+
+.riyad {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 100px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.main-sec {
+    margin: 0 200px;
+    background-color: rgba(249, 229, 193, 0.849);
+}
+
+.section-title {
+    margin-top: 80px;
+    padding: 50px;
+    text-align: center;
+}
+
+.discription {
+    margin-bottom: 30px;
+}
